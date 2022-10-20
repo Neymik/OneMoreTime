@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/domek.png-3e5c1c4874ab12c730a19efcbea361e6.stex"
+path="res://.import/Psnw5yUtN14.jpg-6b36a94ae57b54a70e2945ae991fbfe7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://domek.png"
-dest_files=[ "res://.import/domek.png-3e5c1c4874ab12c730a19efcbea361e6.stex" ]
+source_file="res://Grafen/Psnw5yUtN14.jpg"
+dest_files=[ "res://.import/Psnw5yUtN14.jpg-6b36a94ae57b54a70e2945ae991fbfe7.stex" ]
 
 [params]
 

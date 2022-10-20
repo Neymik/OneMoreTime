@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/plytka.png-6729815148ee7d3c4f1a8fbfccdd3b19.stex"
+path="res://.import/ST-Convi-E01.png-d7b14acfdfa770a51d8e4c237c83483e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://plytka.png"
-dest_files=[ "res://.import/plytka.png-6729815148ee7d3c4f1a8fbfccdd3b19.stex" ]
+source_file="res://Grafen/ST-Convi-E01.png"
+dest_files=[ "res://.import/ST-Convi-E01.png-d7b14acfdfa770a51d8e4c237c83483e.stex" ]
 
 [params]
 
