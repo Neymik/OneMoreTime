@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ランコ -Ranko--L∞p 改 _ L∞p Aratame-kissvk.com.mp3-79e6bc7e577bd5c600c24153cca9b923.mp3str"
+
+[deps]
+
+source_file="res://Music/ランコ -Ranko--L∞p 改 _ L∞p Aratame-kissvk.com.mp3"
+dest_files=[ "res://.import/ランコ -Ranko--L∞p 改 _ L∞p Aratame-kissvk.com.mp3-79e6bc7e577bd5c600c24153cca9b923.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

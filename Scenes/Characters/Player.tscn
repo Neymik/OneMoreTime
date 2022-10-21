@@ -45,6 +45,8 @@ position = Vector2( -2, 2 )
 scale = Vector2( 1.1, 0.9 )
 
 [node name="Sprite" type="Sprite" parent="Pivot"]
-position = Vector2( 16, 16 )
+position = Vector2( 18.1818, 15.5556 )
 scale = Vector2( 0.470588, 0.421053 )
 texture = ExtResource( 2 )
+
+[node name="SoundOrgasm" type="AudioStreamPlayer" parent="."]
