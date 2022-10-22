@@ -14,3 +14,9 @@ func activate_object():
 	var direction_of_interaction = Vector2((int(dir == DIR.RIGHT) - int(
 			dir == DIR.LEFT)), (int(dir == DIR.DOWN) - int(dir == DIR.UP)))
 	worldTileMap.request_interaction(self, direction_of_interaction)
+
+# почему то не работат
+func _physics_process(delta):
+	if Input.is_action_just_pressed("ui_down"):
+		$SoundOrgasm.play()
+	

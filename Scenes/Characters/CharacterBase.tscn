@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
 
@@ -29,6 +29,9 @@ tracks/1/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( -2, 2 ), Vector2( 2, -2 ), Vector2( -1, 1 ), Vector2( 0, 0 ) ]
 }
 
+[sub_resource type="CircleShape2D" id=2]
+radius = 36.203
+
 [node name="Player" type="Node2D"]
 script = ExtResource( 1 )
 
@@ -42,3 +45,9 @@ anims/bump = SubResource( 1 )
 [node name="Sprite" type="Sprite" parent="Pivot"]
 position = Vector2( 16, 16 )
 scale = Vector2( 0.470588, 0.421053 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="Pivot/Sprite"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pivot/Sprite/KinematicBody2D"]
+position = Vector2( 0, -2.375 )
+shape = SubResource( 2 )
