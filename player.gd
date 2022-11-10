@@ -19,5 +19,23 @@ func read_input ():
 
 	velocity = velocity.normalized()
 	velocity = move_and_slide(velocity * 200)
-func _physics_process(delta):
+	
+func _physics_process(_delta):
+	
+	# check collisions
+	for i in get_slide_count():
+		var collision = get_slide_collision(i)
+		
+		if collision.collider.name == "TileMap":
+			var tileMap = collision.collider
+			var pos = tileMap.world_to_map(collision.position)
+			var id = tileMap.get_cellv(pos)
+			
+			var dialog = Dialogic.start("timeline-colly")
+			Dialogic.set_variable("collision_definition", "TileMap " + str(pos) + " " + str(id))
+			add_child(dialog)
+			
+			print()
+			# tileMap.get_cellv(tileMap.world_to_map(coll_pos))
+	
 	read_input()
